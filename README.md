@@ -4,8 +4,8 @@
 - `Peer`
   - `Send chan<- FileChunk`
   - `Receive <-chan FileChunk`
-- `File`
+- `Torrent`
   - `[]FileChunk`
   - `FindPeer() chan<- Peer`
 - `Magnet`
-  - `FindFile() chan<- File`
+  - `FindFile() chan<- Torrent`
