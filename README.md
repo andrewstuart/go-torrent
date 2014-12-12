@@ -2,10 +2,10 @@
 
 ## Classes
 - Peer
-  - Send chan&lt- FileChunk
-  - Receive &lt-chan FileChunk
+  - Send chan<- FileChunk
+  - Receive <-chan FileChunk
 - File
   - []FileChunk
-  - FindPeer() chan&lt- Peer
+  - FindPeer() chan<- Peer
 - Magnet
-  - FindFile() chan&lt- File
+  - FindFile() chan<- File
