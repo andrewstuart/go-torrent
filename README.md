@@ -1,4 +1,6 @@
-# Classes
+# Design
+
+## Classes
 - Peer
   - Send chan&lt- FileChunk
   - Receive &lt-chan FileChunk
